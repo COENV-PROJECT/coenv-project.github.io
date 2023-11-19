@@ -1,45 +1,26 @@
-# Impostazioni base del sito
-title: Complex Environmental Data and Modeling (CoEnv)
-description: Una breve descrizione del tuo progetto di ricerca.
-baseurl: "" # importante se il tuo sito non è all'indirizzo root
-url: "https://coenv-project.github.io" # sostituisci con il tuo username
+# Nome del tuo sito
+title: Il Mio Sito Web
 
-# Impostazioni del tema
-theme: minima # o qualsiasi altro tema Jekyll che stai usando
+# Breve descrizione del tuo sito
+description: Questo è il mio sito web personale ospitato su GitHub Pages.
 
-# Metadati dell'autore/sito
+# URL base del tuo sito (e.g. se il tuo sito è username.github.io, lascia questo vuoto)
+baseurl: ""
+
+# URL del tuo sito
+url: "https://coenv-project.github.io/"
+
+# Impostazioni per la costruzione del sito
+theme: minima  # Sostituisci con il nome del tema Jekyll che stai usando
+markdown: kramdown
+permalink: pretty
+
+# Metadati del sito
 author:
-  name: Luigi Ippoliti
-  email: email@esempio.com
+  name: Tuo Nome
+  email: tua@email.com
 
-# Sezioni del Progetto di Ricerca
-research_units:
-  - name: Unità di Ricerca 1
-    description: Descrizione della Unità di Ricerca 1.
-  - name: Unità di Ricerca 2
-    description: Descrizione della Unità di Ricerca 2.
-  - name: Unità di Ricerca 3
-    description: Descrizione della Unità di Ricerca 3.
-
-# Principal Investigators
-principal_investigators:
-  - name: Nome Investigatore 1
-    
-  - name: Nome Investigatore 2
-    
-  - name: Nome Investigatore 3
-    
-
-# Pubblicazioni
-publications:
-  - title: "Titolo della Pubblicazione 1"
-    link: 
-  - title: "Titolo della Pubblicazione 2"
-    link: 
-  - title: "Titolo della Pubblicazione 3"
-    link: 
-
-# Escludi file dal sito
+# Opzioni di esclusione (file e cartelle da non includere nel sito generato)
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -48,6 +29,18 @@ exclude:
   - .jekyll-cache
   - .jekyll-metadata
 
-# Plugin (se necessario)
+# Impostazioni dei plugin (se ne usi)
 plugins:
   - jekyll-feed
+
+# Configurazioni aggiuntive (ad esempio, per i social media)
+twitter_username: tuo_username
+github_username:  tuo_username
+
+# SEO tags
+seo_tag:
+  type: website
+  image: /path/to/image.jpg
+
+# Google Analytics (se ne utilizzi)
+google_analytics: UA-XXXXX-Y
