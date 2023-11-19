@@ -2,7 +2,7 @@
 title: Nome del Progetto di Ricerca
 description: Una breve descrizione del tuo progetto di ricerca.
 baseurl: "" # importante se il tuo sito non è all'indirizzo root
-url: "https://username.github.io" # sostituisci con il tuo username
+url: "https://coenv-project.github.io" # sostituisci con il tuo username
 
 # Impostazioni del tema
 theme: minima # o qualsiasi altro tema Jekyll che stai usando
