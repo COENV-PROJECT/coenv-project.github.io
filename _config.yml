@@ -1,0 +1,46 @@
+# Nome del tuo sito
+title: Il Mio Sito Web
+
+# Breve descrizione del tuo sito
+description: Questo è il mio sito web personale ospitato su GitHub Pages.
+
+# URL base del tuo sito (e.g. se il tuo sito è username.github.io, lascia questo vuoto)
+baseurl: ""
+
+# URL del tuo sito
+url: "https://coenv-project.github.io"
+
+# Impostazioni per la costruzione del sito
+theme: minima  # Sostituisci con il nome del tema Jekyll che stai usando
+markdown: kramdown
+permalink: pretty
+
+# Metadati del sito
+author:
+  name: Tuo Nome
+  email: tua@email.com
+
+# Opzioni di esclusione (file e cartelle da non includere nel sito generato)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Impostazioni dei plugin (se ne usi)
+plugins:
+  - jekyll-feed
+
+# Configurazioni aggiuntive (ad esempio, per i social media)
+twitter_username: tuo_username
+github_username:  tuo_username
+
+# SEO tags
+seo_tag:
+  type: website
+  image: /path/to/image.jpg
+
+# Google Analytics (se ne utilizzi)
+google_analytics: UA-XXXXX-Y
