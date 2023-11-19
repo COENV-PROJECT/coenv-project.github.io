@@ -1,26 +1,45 @@
-# Nome del tuo sito
-title: Il Mio Sito Web
+# Impostazioni base del sito
+title: Nome del Progetto di Ricerca
+description: Una breve descrizione del tuo progetto di ricerca.
+baseurl: "" # importante se il tuo sito non è all'indirizzo root
+url: "https://username.github.io" # sostituisci con il tuo username
 
-# Breve descrizione del tuo sito
-description: Questo è il mio sito web personale ospitato su GitHub Pages.
+# Impostazioni del tema
+theme: minima # o qualsiasi altro tema Jekyll che stai usando
 
-# URL base del tuo sito (e.g. se il tuo sito è username.github.io, lascia questo vuoto)
-baseurl: ""
-
-# URL del tuo sito
-url: "https://coenv-project.github.io"
-
-# Impostazioni per la costruzione del sito
-theme: minima  # Sostituisci con il nome del tema Jekyll che stai usando
-markdown: kramdown
-permalink: pretty
-
-# Metadati del sito
+# Metadati dell'autore/sito
 author:
-  name: Tuo Nome
-  email: tua@email.com
+  name: Nome del Coordinatore del Progetto
+  email: email@esempio.com
 
-# Opzioni di esclusione (file e cartelle da non includere nel sito generato)
+# Sezioni del Progetto di Ricerca
+research_units:
+  - name: Unità di Ricerca 1
+    description: Descrizione della Unità di Ricerca 1.
+  - name: Unità di Ricerca 2
+    description: Descrizione della Unità di Ricerca 2.
+  - name: Unità di Ricerca 3
+    description: Descrizione della Unità di Ricerca 3.
+
+# Principal Investigators
+principal_investigators:
+  - name: Nome Investigatore 1
+    photo: /path/to/photo1.jpg
+  - name: Nome Investigatore 2
+    photo: /path/to/photo2.jpg
+  - name: Nome Investigatore 3
+    photo: /path/to/photo3.jpg
+
+# Pubblicazioni
+publications:
+  - title: "Titolo della Pubblicazione 1"
+    link: http://linkalla pubblicazione1.com
+  - title: "Titolo della Pubblicazione 2"
+    link: http://linkalla pubblicazione2.com
+  - title: "Titolo della Pubblicazione 3"
+    link: http://linkalla pubblicazione3.com
+
+# Escludi file dal sito
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -29,18 +48,6 @@ exclude:
   - .jekyll-cache
   - .jekyll-metadata
 
-# Impostazioni dei plugin (se ne usi)
+# Plugin (se necessario)
 plugins:
   - jekyll-feed
-
-# Configurazioni aggiuntive (ad esempio, per i social media)
-twitter_username: tuo_username
-github_username:  tuo_username
-
-# SEO tags
-seo_tag:
-  type: website
-  image: /path/to/image.jpg
-
-# Google Analytics (se ne utilizzi)
-google_analytics: UA-XXXXX-Y
