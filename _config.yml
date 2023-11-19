@@ -1,5 +1,5 @@
 # Impostazioni base del sito
-title: Nome del Progetto di Ricerca
+title: Complex Environmental Data and Modeling (CoEnv)
 description: Una breve descrizione del tuo progetto di ricerca.
 baseurl: "" # importante se il tuo sito non è all'indirizzo root
 url: "https://coenv-project.github.io" # sostituisci con il tuo username
